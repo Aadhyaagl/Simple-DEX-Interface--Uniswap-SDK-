@@ -1,0 +1,16 @@
+[package]
+name = "Simple-DEX-Interface"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x19328bf6ea2ec82aa05863eabbc30c455ec8995f4480a35bb4a94837c739aa04"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
